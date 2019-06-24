@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6849516822C0E587001C57EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849516722C0E587001C57EF /* AppDelegate.swift */; };
+		6849516A22C0E587001C57EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849516922C0E587001C57EF /* ViewController.swift */; };
+		6849516D22C0E587001C57EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6849516B22C0E587001C57EF /* Main.storyboard */; };
+		6849517022C0E587001C57EF /* JustGo_Revenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6849516E22C0E587001C57EF /* JustGo_Revenge.xcdatamodeld */; };
+		6849517222C0E589001C57EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6849517122C0E589001C57EF /* Assets.xcassets */; };
+		6849517522C0E589001C57EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6849517322C0E589001C57EF /* LaunchScreen.storyboard */; };
+		6849518022C0E589001C57EF /* JustGo_RevengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849517F22C0E589001C57EF /* JustGo_RevengeTests.swift */; };
+		6849518B22C0E589001C57EF /* JustGo_RevengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6849518A22C0E589001C57EF /* JustGo_RevengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6849517C22C0E589001C57EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6849515C22C0E587001C57EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6849516322C0E587001C57EF;
+			remoteInfo = "JustGo-Revenge";
+		};
+		6849518722C0E589001C57EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6849515C22C0E587001C57EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6849516322C0E587001C57EF;
+			remoteInfo = "JustGo-Revenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6849516422C0E587001C57EF /* JustGo-Revenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustGo-Revenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6849516722C0E587001C57EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6849516922C0E587001C57EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6849516C22C0E587001C57EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6849516F22C0E587001C57EF /* JustGo_Revenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JustGo_Revenge.xcdatamodel; sourceTree = "<group>"; };
+		6849517122C0E589001C57EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6849517422C0E589001C57EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6849517622C0E589001C57EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6849517B22C0E589001C57EF /* JustGo-RevengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JustGo-RevengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6849517F22C0E589001C57EF /* JustGo_RevengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustGo_RevengeTests.swift; sourceTree = "<group>"; };
+		6849518122C0E589001C57EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6849518622C0E589001C57EF /* JustGo-RevengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JustGo-RevengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6849518A22C0E589001C57EF /* JustGo_RevengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustGo_RevengeUITests.swift; sourceTree = "<group>"; };
+		6849518C22C0E589001C57EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6849516122C0E587001C57EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849517822C0E589001C57EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849518322C0E589001C57EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6849515B22C0E587001C57EF = {
+			isa = PBXGroup;
+			children = (
+				6849516622C0E587001C57EF /* JustGo-Revenge */,
+				6849517E22C0E589001C57EF /* JustGo-RevengeTests */,
+				6849518922C0E589001C57EF /* JustGo-RevengeUITests */,
+				6849516522C0E587001C57EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6849516522C0E587001C57EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6849516422C0E587001C57EF /* JustGo-Revenge.app */,
+				6849517B22C0E589001C57EF /* JustGo-RevengeTests.xctest */,
+				6849518622C0E589001C57EF /* JustGo-RevengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6849516622C0E587001C57EF /* JustGo-Revenge */ = {
+			isa = PBXGroup;
+			children = (
+				6849516722C0E587001C57EF /* AppDelegate.swift */,
+				6849516922C0E587001C57EF /* ViewController.swift */,
+				6849516B22C0E587001C57EF /* Main.storyboard */,
+				6849517122C0E589001C57EF /* Assets.xcassets */,
+				6849517322C0E589001C57EF /* LaunchScreen.storyboard */,
+				6849517622C0E589001C57EF /* Info.plist */,
+				6849516E22C0E587001C57EF /* JustGo_Revenge.xcdatamodeld */,
+			);
+			path = "JustGo-Revenge";
+			sourceTree = "<group>";
+		};
+		6849517E22C0E589001C57EF /* JustGo-RevengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6849517F22C0E589001C57EF /* JustGo_RevengeTests.swift */,
+				6849518122C0E589001C57EF /* Info.plist */,
+			);
+			path = "JustGo-RevengeTests";
+			sourceTree = "<group>";
+		};
+		6849518922C0E589001C57EF /* JustGo-RevengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6849518A22C0E589001C57EF /* JustGo_RevengeUITests.swift */,
+				6849518C22C0E589001C57EF /* Info.plist */,
+			);
+			path = "JustGo-RevengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6849516322C0E587001C57EF /* JustGo-Revenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6849518F22C0E589001C57EF /* Build configuration list for PBXNativeTarget "JustGo-Revenge" */;
+			buildPhases = (
+				6849516022C0E587001C57EF /* Sources */,
+				6849516122C0E587001C57EF /* Frameworks */,
+				6849516222C0E587001C57EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JustGo-Revenge";
+			productName = "JustGo-Revenge";
+			productReference = 6849516422C0E587001C57EF /* JustGo-Revenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6849517A22C0E589001C57EF /* JustGo-RevengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6849519222C0E589001C57EF /* Build configuration list for PBXNativeTarget "JustGo-RevengeTests" */;
+			buildPhases = (
+				6849517722C0E589001C57EF /* Sources */,
+				6849517822C0E589001C57EF /* Frameworks */,
+				6849517922C0E589001C57EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6849517D22C0E589001C57EF /* PBXTargetDependency */,
+			);
+			name = "JustGo-RevengeTests";
+			productName = "JustGo-RevengeTests";
+			productReference = 6849517B22C0E589001C57EF /* JustGo-RevengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6849518522C0E589001C57EF /* JustGo-RevengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6849519522C0E589001C57EF /* Build configuration list for PBXNativeTarget "JustGo-RevengeUITests" */;
+			buildPhases = (
+				6849518222C0E589001C57EF /* Sources */,
+				6849518322C0E589001C57EF /* Frameworks */,
+				6849518422C0E589001C57EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6849518822C0E589001C57EF /* PBXTargetDependency */,
+			);
+			name = "JustGo-RevengeUITests";
+			productName = "JustGo-RevengeUITests";
+			productReference = 6849518622C0E589001C57EF /* JustGo-RevengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6849515C22C0E587001C57EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "조우진";
+				TargetAttributes = {
+					6849516322C0E587001C57EF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					6849517A22C0E589001C57EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6849516322C0E587001C57EF;
+					};
+					6849518522C0E589001C57EF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 6849516322C0E587001C57EF;
+					};
+				};
+			};
+			buildConfigurationList = 6849515F22C0E587001C57EF /* Build configuration list for PBXProject "JustGo-Revenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6849515B22C0E587001C57EF;
+			productRefGroup = 6849516522C0E587001C57EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6849516322C0E587001C57EF /* JustGo-Revenge */,
+				6849517A22C0E589001C57EF /* JustGo-RevengeTests */,
+				6849518522C0E589001C57EF /* JustGo-RevengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6849516222C0E587001C57EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6849517522C0E589001C57EF /* LaunchScreen.storyboard in Resources */,
+				6849517222C0E589001C57EF /* Assets.xcassets in Resources */,
+				6849516D22C0E587001C57EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849517922C0E589001C57EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849518422C0E589001C57EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6849516022C0E587001C57EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6849516A22C0E587001C57EF /* ViewController.swift in Sources */,
+				6849517022C0E587001C57EF /* JustGo_Revenge.xcdatamodeld in Sources */,
+				6849516822C0E587001C57EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849517722C0E589001C57EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6849518022C0E589001C57EF /* JustGo_RevengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6849518222C0E589001C57EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6849518B22C0E589001C57EF /* JustGo_RevengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6849517D22C0E589001C57EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6849516322C0E587001C57EF /* JustGo-Revenge */;
+			targetProxy = 6849517C22C0E589001C57EF /* PBXContainerItemProxy */;
+		};
+		6849518822C0E589001C57EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6849516322C0E587001C57EF /* JustGo-Revenge */;
+			targetProxy = 6849518722C0E589001C57EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6849516B22C0E587001C57EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6849516C22C0E587001C57EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6849517322C0E589001C57EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6849517422C0E589001C57EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6849518D22C0E589001C57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6849518E22C0E589001C57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6849519022C0E589001C57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ5VFB95C;
+				INFOPLIST_FILE = "JustGo-Revenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woopa.JustGo-Revenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6849519122C0E589001C57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ5VFB95C;
+				INFOPLIST_FILE = "JustGo-Revenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woopa.JustGo-Revenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6849519322C0E589001C57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ5VFB95C;
+				INFOPLIST_FILE = "JustGo-RevengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woopa.JustGo-RevengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustGo-Revenge.app/JustGo-Revenge";
+			};
+			name = Debug;
+		};
+		6849519422C0E589001C57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ5VFB95C;
+				INFOPLIST_FILE = "JustGo-RevengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woopa.JustGo-RevengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustGo-Revenge.app/JustGo-Revenge";
+			};
+			name = Release;
+		};
+		6849519622C0E589001C57EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ5VFB95C;
+				INFOPLIST_FILE = "JustGo-RevengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woopa.JustGo-RevengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JustGo-Revenge";
+			};
+			name = Debug;
+		};
+		6849519722C0E589001C57EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSZ5VFB95C;
+				INFOPLIST_FILE = "JustGo-RevengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woopa.JustGo-RevengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JustGo-Revenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6849515F22C0E587001C57EF /* Build configuration list for PBXProject "JustGo-Revenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6849518D22C0E589001C57EF /* Debug */,
+				6849518E22C0E589001C57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6849518F22C0E589001C57EF /* Build configuration list for PBXNativeTarget "JustGo-Revenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6849519022C0E589001C57EF /* Debug */,
+				6849519122C0E589001C57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6849519222C0E589001C57EF /* Build configuration list for PBXNativeTarget "JustGo-RevengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6849519322C0E589001C57EF /* Debug */,
+				6849519422C0E589001C57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6849519522C0E589001C57EF /* Build configuration list for PBXNativeTarget "JustGo-RevengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6849519622C0E589001C57EF /* Debug */,
+				6849519722C0E589001C57EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6849516E22C0E587001C57EF /* JustGo_Revenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6849516F22C0E587001C57EF /* JustGo_Revenge.xcdatamodel */,
+			);
+			currentVersion = 6849516F22C0E587001C57EF /* JustGo_Revenge.xcdatamodel */;
+			path = JustGo_Revenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6849515C22C0E587001C57EF /* Project object */;
+}
